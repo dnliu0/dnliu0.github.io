@@ -11,7 +11,27 @@ img {
     width: 400px;
     /* height: 600px; */
 }
-
-.navbar {
+.navbar > a:hover {
+    color: #75AADB;
+}
+.navbar-brand {
     margin-left: 40px;
+}
+
+a {
+    color: #75AADB;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2C6BAC;
+    text-decoration: none;
+}
+
+i {
+    font-size: 20px;
+}
+
+.social-icon {
+    margin-right: 5px;
 }
