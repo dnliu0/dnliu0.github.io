@@ -2,7 +2,16 @@
     font-size: 16px;
 }
 
+.content {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
 img {
     width: 400px;
     /* height: 600px; */
+}
+
+.navbar {
+    margin-left: 40px;
 }
