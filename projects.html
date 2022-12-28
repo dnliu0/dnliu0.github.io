@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="style.css"  rel="stylesheet" >
+    <title>Danni Liu</title>
+  </head>
+  <body>
+    <ul>
+      <li><a class="brand" href="index.html">Danni Liu</a></li>
+      <li><a href="CV_DanniLiu.pdf">CV</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+    <div class="content row">
+      <!-- <div class="col-3"> 
+        <h4>Danni Liu</h4>
+        <p>danni.l [at] wustl.edu</p>
+        <a href="https://github.com/dnliu0"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/dndanniliu/"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://twitter.com/DanniLi42373504"><i class="fa-brands fa-twitter"></i></a>
+      </div> -->
+      <!-- <div class="col-12"> -->
+        <div class="projects" id="projects">
+            <div class="row">
+            <div class="col-3">
+                <h1>Projects</h1>
+            </div>
+            <div class="col-6">
+                <!-- <div class="col-5"> -->
+                    <img src="alchemist.png" alt="Visual Alchemist">
+                    <p><a href="https://tools.visualdata.wustl.edu/visual_alchemist/#/login">Visual Alchemist</a> (Chrome only)</p>
+                <!-- </div>
+                <div class="col-5"> -->
+                    <img src="parking.png" alt="Parking Lots">
+                    <p><a href="https://csex57.github.io/parkinglots/">Parking Lots</a></p>
+                <!-- </div> -->
+            <!-- </div> -->
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- <button id="popoverButton" type="button" class="btn btn-primary btn-lg" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="ESM in Browser" data-bs-content="Bang!">Custom popover</button> -->
+
+    <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js" crossorigin="anonymous"></script>
+    <script type="importmap">
+    {
+      "imports": {
+        "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js",
+        "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.esm.min.js"
+      }
+    }
+    </script>
+    <script type="module">
+      import * as bootstrap from 'bootstrap'
+
+      new bootstrap.Popover(document.getElementById('popoverButton'))
+    </script>
+    <script src="https://kit.fontawesome.com/de35c48656.js" crossorigin="anonymous"></script>
+  </body>
+</html>
